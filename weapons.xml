@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<weapons>
+
+	<weapon id_weapon="1">
+		<name>Daga</name>
+		<damage>100</damage>
+	</weapon>
+
+	<weapon id_weapon="2">
+		<name>Espadon</name>
+		<damage>50</damage>
+	</weapon>
+
+	<weapon id_weapon="3">
+		<name>Puño Americano</name>
+		<damage>150</damage>
+	</weapon>
+
+	<weapon id_weapon="4">
+		<name>Lanza</name>
+		<damage>60</damage>
+		</weapon>
+</weapons>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<characters>
+
+	<character id_character="1">
+		<name>Minero</name>
+		<health>1210</health>
+		<damage>193</damage>
+		<level>1</level>
+		<weapons>
+			<weapon id_weapon="1">
+		</weapons>
+	</character>
+
+	<character id_character="2">
+		<name>Pekka</name>
+		<health>3760</health>
+		<damage>816</damage>
+		<level>6</level>
+		<weapons>
+			<weapon id_weapon="1">
+			<weapon id_weapon="2">
+		</weapons>
+	</character>
+
+	<character id_character="3">
+		<name>Mago Electrico</name>
+		<health>713</health>
+		<damage>225</damage>
+		<level>9</level>
+		<weapons>
+			<weapon id_weapon="3">
+			<weapon id_weapon="4">
+		</weapons>
+	</character>
+
+</characters>
+
+
+
