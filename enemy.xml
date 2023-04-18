@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<enemy>
+  <name>Bowser</name>
+  <description>Antagonista de los juegos de Mario Bros</description>
+  <health>100</health>
+  <strength>20</strength>
+</enemy>
