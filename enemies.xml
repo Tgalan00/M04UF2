@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enemy>
+	<name>Wan</name>
+	<damage>30</damage>
+	<health>20</health>
+</enemy>

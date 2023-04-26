@@ -34,7 +34,7 @@ while !final:
 
     print ("Description: "+diccionario2["enemy"]["description"])
 
-    print ("Nuestra vida: "+health")
+    print ("Nuestra vida: "+health)
 
     opcion = input ("Que quieres hacer? Atacar (1) o no hacer nada (2): ")
 
