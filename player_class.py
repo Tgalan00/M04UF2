@@ -41,7 +41,7 @@ class Player:
 		self.xp = xp
 
 	def hurt (self):
-		self.health == damage
+		self.health = damage
 
 		if self.health > 0:
 			return False
@@ -70,6 +70,10 @@ class Player:
 		print("Strength: "+str(self.strength))
 		print("Level: "+str(self.level))
 		print("XP: "+str(self.xp))
+
+    def attack_enemy (self,enemy):
+
+
 
 if __name__ == "__main__":
 	player = Player("Juan Ramón")

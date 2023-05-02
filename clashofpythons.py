@@ -18,8 +18,9 @@ health = 100
 
 final = false
 
-while !final:
-
+while not final:
+    
+    
     ataque = random.randint(0,5)
     
     ataqueenemigo = random.randint(0,2)
@@ -38,7 +39,7 @@ while !final:
 
     opcion = input ("Que quieres hacer? Atacar (1) o no hacer nada (2): ")
 
-    if  opcion = 1:
+    if  opcion == 1:
             print ("Atacas al enemigo: Vida que le has quitado: "+ataque) 
             diccionario2["enemy"]["health"] = diccionario2["enemy"]["health"] - ataque
 
@@ -46,8 +47,9 @@ while !final:
 
     health = health - ataqueenemigo
     
-    if diccionario2["enemy"]["health"] = 0 || health = 0:
-        final = true
+    if diccionario2["enemy"]["health"] == 0:
+            
+
 
 pp = pprint.PrettyPrinter(indent=4)
 
