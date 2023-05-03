@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 
 import xmltodict
+import random
 
 class Player:
 
-	def __init__(self, name, health=100, strength=10, level=1, xp=0):
+	def __init__(self, name="", health=100, strength=10, level=1, xp=0):
 		self.name = name
 		self.health = health
 		self.strength = strength
@@ -26,6 +27,7 @@ class Player:
 			self.levels[ level["@num"] ] = int(level["@xp"])
 		
 		print(self.levels)
+
 	def set_health (self, health):
 		self.health = health
 
@@ -41,7 +43,13 @@ class Player:
 		self.xp = xp
 
 	def hurt (self):
-		self.health = damage
+		self.health -= damage
+
+		if self.health > 0:
+			return False
+
+		return True
+
 
 		if self.health > 0:
 			return False
@@ -71,8 +79,31 @@ class Player:
 		print("Level: "+str(self.level))
 		print("XP: "+str(self.xp))
 
-    def attack_enemy (self,enemy):
+  
+	def write_info(self):
+		diccionario = {
+			"name": self.name,
+			"health": self.health,
+			"strength": self.strength,
+			"level": self.level,
+			"xp": self.xp
+		}
 
+	def read_info(self):
+		xml_file = open("player.xml","r")
+
+		player_dict = xmltodict.parse(xml_file.read())
+
+		info = player_dict["player"]
+		
+		self.name = info["name"]
+		self.health= int(info["health" +)
+		self.strength = int(info["strength"])
+		self.level = int(info["level"])
+		self.xp = int(info["xp"])
+
+
+    
 
 
 if __name__ == "__main__":

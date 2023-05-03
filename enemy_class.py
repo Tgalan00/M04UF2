@@ -27,17 +27,25 @@ class Enemy:
 
 		def hurt (self,damage):
 			
-			self.health = damage
+			self.health -= damage
 
 			if self.health > 0:
 				return False
 
 			return True
+
+      
 		
 
 if __name__ == "__main__":
 	enemigo = Enemy("Jacinto", 33, 10, "Es un bicho feo")
 	
-	print(enemigo.attack())
+	enemigo.show_info()
+
+	print(enemigo.hurt(enemigo.attack()))
+
+	enemigo.show_info()
+
+
 
 
