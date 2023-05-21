@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<enemies>
+	<enemy>
+		<name>Wan</name>
+		<strength>30</strength>
+		<health>20</health>
+		<description>Te pega fuerte</description>
+	</enemy>
 
-<enemy>
-	<name>Wan</name>
-	<damage>30</damage>
-	<health>20</health>
-</enemy>
-
-<enemy>
-	<name>Pan</name>
-	<damage>10</damage>
-	<health>40</health>
-</enemy>
-<enemy>
-	<name>Tan</name>
-	<damage>50</damage>
-	<health>50</health>
-</enemy>
+	<enemy>
+		<name>Pan</name>
+		<strength>10</strength>
+		<health>40</health>
+		<description>Te pega mas fuerte</description>
+	</enemy>
+	<enemy>
+		<name>Tan</name>
+		<strength>50</strength>
+		<health>50</health>
+		<description>Te pega aun mas fuerte</description>
+	</enemy>
+</enemies>

@@ -1,0 +1,24 @@
+{
+	"enemies": {
+		"enemy": [
+		{
+			"name": "Wan",
+			"strength": 30,
+			"health": 20,
+			"description": "Te pega fuerte"
+		},
+		{
+			"name": "Pan",
+			"strength": 10,
+			"health": 40,
+			"description": "Te pega mas fuerte"
+		},
+		{
+			"name": "Tan",
+			"strength": 50,
+			"health": 50,
+			"description": "Te pega aun mas fuerte"
+		}
+		]
+	}
+}
